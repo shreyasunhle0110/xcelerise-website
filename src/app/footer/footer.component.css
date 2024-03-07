@@ -1,0 +1,17 @@
+.footer-section {
+    padding: 0px 200px;
+    /* Update padding */
+}
+
+.footer-section footer {
+    font-size: 0.6rem;
+    /* Reduce the font size */
+}
+
+.footer-section .flex {
+    padding: 0 10px;
+    /* Add padding to the inner content */
+}
+.copyright-box {
+    padding: 0 100px;
+}

@@ -1,0 +1,54 @@
+.why-us-section {
+    padding: 30px 0;
+    background-color: white;
+}
+
+.why-us-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.why-us-item {
+    text-align: center;
+    /* padding: 20px; */
+        margin-bottom: 20px;
+}
+
+.why-us-item img {
+    width: 60px;
+    /* Increase the width by 4px */
+    height: 50px;
+    /* Increase the height by 4px */
+    margin-bottom: 4.5rem;
+    /* Adjust margin */
+    margin-right: 40px;
+    padding-right: 10px;
+}
+
+.why-us-item h4 {
+    font-weight: bold;
+    /* Add bold to the heading */
+    line-height: 1;
+    /* Reduce the line spacing */
+    margin-bottom: 0.5rem;
+    /* Add space between h4 and p tag */
+}
+
+.why-us-item p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    .why-us-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .why-us-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

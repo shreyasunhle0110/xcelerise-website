@@ -1,0 +1,24 @@
+.banner {
+    background-color: red;
+    height: 400px;
+    /* Set the desired height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading {
+    font-weight: bolder;
+    /* Increase font weight for bold appearance */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, letter-spacing 0.5s ease-in-out, font-weight 0.5s ease-in-out;
+    /* Added font-weight transition */
+}
+
+.banner-heading.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    letter-spacing: 4px;
+    font-weight: 400;
+    /* Reset font weight when hidden */
+}

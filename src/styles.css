@@ -1,0 +1,7 @@
+/* Add this at the top of the file */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+body {
+    font-family: 'Arial Nova Light', sans-serif;
+}

@@ -1,0 +1,51 @@
+.services-container {
+    max-width: 960px;
+    /* Set a max-width */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 0 20px;
+    /* Add left and right padding */
+    /* Other styles */
+}
+
+.services-section {
+    padding: 50px 0;
+    /* Update padding */
+    background-color: #f3f4f6;
+    /* Lighter shade of grey */
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    /* Adjust the size as needed */
+    text-align: center;
+    margin-bottom: 2rem;
+    /* Add some space below the heading */
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    /* Add a 2px solid line on the right side, except for the last child */
+    border-right: 2px solid white;
+    /* Add margin to the bottom of the cards */
+    margin-bottom: 20px;
+}
+
+/* Remove the border on the last child */
+.service-item:last-child {
+    border-right: none;
+}
+
+@media (min-width: 768px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

@@ -1,0 +1,32 @@
+<div class="lets-connect-section bg-gray-200 p-10">
+    <h2 class="text-2xl text-center text-gray-600 mb-6">Let's Connect</h2>
+    <form id="connect-form" class="max-w-md mx-auto">
+        <div class="mb-4 flex">
+            <div class="w-1/2 mr-2">
+                <input type="text" id="name" name="name" placeholder="Name" class="form-input mt-1 block w-full"
+                    required>
+            </div>
+            <div class="w-1/2 ml-2">
+                <input type="text" id="company" name="company" placeholder="Company"
+                    class="form-input mt-1 block w-full" required>
+            </div>
+        </div>
+        <div class="mb-4 flex">
+            <div class="w-1/2 mr-2">
+                <input type="email" id="email" name="email" placeholder="Email" class="form-input mt-1 block w-full"
+                    required>
+            </div>
+            <div class="w-1/2 ml-2">
+                <input type="tel" id="phone" name="phone" placeholder="Phone" class="form-input mt-1 block w-full"
+                    required pattern="[0-9]{10}">
+            </div>
+        </div>
+        <div class="mb-4">
+            <textarea id="message" name="message" placeholder="Message" rows="5" class="form-textarea mt-1 block w-full"
+                required></textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="bg-red-600 text-white py-2 px-4 rounded">Submit</button>
+        </div>
+    </form>
+</div>
